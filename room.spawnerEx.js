@@ -4,17 +4,12 @@ var debugging = false;
 // total: 800
 var configurations = {
     "default"   : [WORK, CARRY, MOVE],
-    "harvester" : [WORK, CARRY, CARRY, MOVE],
-    "upgrader"  : [WORK, WORK, WORK, WORK, CARRY, CARRY, CARRY, CARRY, CARRY, CARRY, MOVE, MOVE],
-    "builder"   : [WORK, WORK, WORK, CARRY, CARRY, CARRY, CARRY, CARRY, MOVE, MOVE, MOVE],
+    "harvester" : [WORK, WORK, WORK, WORK, CARRY, CARRY, CARRY, CARRY, CARRY, MOVE, MOVE],
+    /*"harvester" : [WORK, CARRY, MOVE],*/
+    "upgrader"  : [WORK, WORK, WORK, CARRY, CARRY, CARRY, CARRY, CARRY, CARRY, MOVE, MOVE, MOVE, MOVE],
+    "builder"   : [WORK, WORK, WORK, WORK, CARRY, CARRY, CARRY, CARRY, CARRY, MOVE, MOVE, MOVE],
     "claimer"   : [CLAIM, CLAIM, MOVE],
-    "ling"      : [TOUGH, TOUGH, MOVE, ATTACK],
-    "ultra"     : [TOUGH, TOUGH, TOUGH, TOUGH, TOUGH, ATTACK, ATTACK, ATTACK, MOVE],
-    "miner"     : [WORK, WORK, WORK, WORK, WORK, CARRY, MOVE],
-    /*"miner"     : [WORK, CARRY, MOVE],*/
-    "transporter"   : [WORK, WORK, CARRY, CARRY, CARRY, CARRY, CARRY, CARRY, MOVE, MOVE],
-    /*"transporter"   : [ WORK, CARRY, CARRY, MOVE],*/
-    "testing"   : [WORK, CARRY, MOVE]
+    "testing"   : [WORK, WORK, WORK, CARRY, CARRY, CARRY, MOVE, MOVE, MOVE, MOVE, MOVE, MOVE, MOVE]
 }
 
 module.exports = {

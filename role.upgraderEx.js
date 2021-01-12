@@ -32,8 +32,7 @@ var roleUpgrader = {
         // mining logic
         if(!creep.memory.upgrading)
         {
-            //var sourceSilo = getSourceSilo(creep)
-            var sourceSilo = getSourceSilo(creep.room.controller)
+            var sourceSilo = getSourceSilo(creep)
         
             if(creep.withdraw(sourceSilo, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
                 creep.moveTo(sourceSilo, {visualizePathStyle: {stroke: '#ffaa00'}});
